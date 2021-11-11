@@ -1,0 +1,17 @@
+CREATE DATABASE truonghoc;
+USE truonghoc;
+CREATE TABLE students(
+   id int(10) unsigned NOT NULL;
+   fullname varchar(255) utf8_unicode_ci;
+   dob timstamp CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+   gpa int(11)
+  )
+CREATE TABLE teacher(
+   id varchar(255) PRIMARY KEY NOT NULL;
+   password varchar(255);
+   fullname varchar925);
+   dob timstamp CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+   classname varchar(255)
+   )
+USE truonghoc;
+INSERT INTO `teacher`(`id`,`password`,`fullname`,`dob`,`classname`) VALUES(`[value 1]`,....)
